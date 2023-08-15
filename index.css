@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gruppo:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Diphylleia:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+  font-family: "GRANDIFLORA";
+  src: url("../Grandiflora-Hairline.otf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.text-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-blue-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 6.16% 51.69%,
+    #00040f 0.89%,
+    #010715 17.23%,
+    #01091c 42.04%,
+    #020b24 55.12%,
+    #00040f 71.54%,
+    #00040f 100%
+  );
+}
+
+.bg-orangered-gradient {
+  background: radial-gradient(
+    75.18% 50.18% at 94.16% 50.0%,
+    #300a03 0.89%,
+    #280802 17.23%,
+    #170501 42.04%,
+    #120300 55.12%,
+    #0d0200 71.54%,
+    #00040f 100%
+  );
+}
+
+.bg-white-gradient {
+  background: radial-gradient(
+    75.18% 50.18% at 94.16% 50.0%,
+    #1b3272 0.89%,
+    #162d64 17.23%,
+    #0f265c 42.04%,
+    #0c1e4e 55.12%,
+    #051234 71.54%,
+    #00040f 100%
+  );
+}
+
+.bg-black-gradient {
+  background: linear-gradient(
+    180deg,
+    #000000 -278.56%,
+    #000000 -18.56%,
+    #00040f 58.56%,
+    rgba(0,14,5, 0.7) 92%,
+    rgba(0,14,5, 0.4) 97%,
+    rgba(0,0,0,0) 100%
+  );
+}
+
+.bg-black-gradient-2 {
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.bg-gray-gradient {
+  background: linear-gradient(
+    153.47deg,
+    rgba(255, 255, 255, 0) -341.94%,
+    #14101d 95.11%
+  );
+}
+
+/* .bg-hanji-blue {
+  src: url("../src/assets/hanji7.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  filter:saturate(0.2) brightness(0.4);
+  transition: 1s ease-in-out;
+}
+.bg-hanji-black {
+  src: url("../src/assets/hanji5.png");
+  background-size: contain;
+  opacity: 0.;
+  width: 100%;
+  height: 100%;
+}
+.bg-hanji-white {
+  background: url(..\src\assets\hanji2.png);
+  background-size: cover;
+  opacity: 0.125;
+  width: 100%;
+  height: 100%;
+} */
+.blur{
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.bg-discount-gradient {
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+}
+
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.feature-card:hover {
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+}
+
+.feedback-container .feedback-card:last-child {
+  margin-right: 0px;
+}
+
+.feedback-card {
+  background: transparent;
+}
+
+.feedback-card:hover {
+  background: var(--black-gradient);
+}
+
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
+
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
+
+.slide-in {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #00040f;
+  transform-origin: bottom;
+  z-index: 998;
+}
+
+.slide-out{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #00040f;
+  transform-origin: top;
+  z-index: 998;
+}
