@@ -5,17 +5,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#00040f",
+        primary: "#434A50",
         secondary: "#00f6ff",
         beige: "rgba(125, 125, 125)",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.75)",
         darkGray: "#222222",
-        white: "#f5f5f5"
+        white: "#f5f5f5",
+        red: "#C53633",
       },
       fontFamily: {
-        arimo: ["Arimo", "sans-serif"],
-        gruppo: ["Gruppo", "sans-serif"],
         diphylleia: ["Diphylleia"],
         opensans: ["Open Sans"],
         grandiflora: ["GRANDIFLORA", "sans-serif"],
@@ -23,9 +22,10 @@ module.exports = {
       backgroundImage: {
         "stone": "url('/src/assets/stonebg.png')",
         "hanji": "url('/src/assets/hanji.png')",
-        "hanji-white" : "url('/src/assets/hanji2.png')",
-        "hanji-black" : "url('/src/assets/hanji5.png')",
+        "hanji-dimWhite" : "url('/src/assets/hanji2.png')",
+        "hanji-white" : "url('/src/assets/hanji5.png')",
         "hanji-blue" : "url('/src/assets/hanji7.png')",
+        "hanji-letter" : "url('/src/assets/hanji1.png')",
       },
       // keyframes: {
       //   turn: {

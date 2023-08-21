@@ -1,16 +1,11 @@
 .gallery{
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-    -webkit-column-width: 33%;
-    -moz-column-width: 33%;
-    column-width: 33%;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-width: 25%;
+    -moz-column-width: 25%;
+    column-width: 25%;
     padding: 0;
-    position: absolute;
-    width: 95%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 5%;
 }
 .gallery .pics{
     -webkit-transition: all 350ms ease;
@@ -22,10 +17,6 @@
     border-radius: 0px;
 }
 
-.gallery .pics .pic:hover{
-    transition: all 350ms ease;
-    border-radius: 15px;
-}
 @media (max-width: 1060px) {
     .gallery{
         -webkit-column-count: 3;
@@ -262,10 +253,10 @@
 
 
 .icon{
-    width: 25px;
-    height: 25px;
-    filter: invert(100%);
+    width: 30px;
+    height: 30px;
     padding-right: 10px;
+    filter: invert(100%);
 }
 
 /* .icon:hover{
@@ -283,37 +274,36 @@
 
 .button-effect::after{
     content: "";
-    height: 6px;
-    border-radius: 20px;
-    width: 6px;
-    background: #4f84d1;
+    height: 2px;
+    width: 0%;
+    background: #C53633;
     position: absolute;
     left: 50%;
-    top: -6px;
+    top: -3px;
     opacity: 0;
     transition: all 0.2s;
     pointer-events: none;
 }
-.button-effect-active{
+.button-effect:hover::after{
+    opacity: 1;
+    left: 0%;
+    width: 100%;
+}
+/* .button-effect-active{
     transition: 0.5s;
     letter-spacing: 0.025em;
 }
 .button-effect-active::after{
     content: "";
     height: 6px;
-    border-radius: 20px;
-    width: 6px;
-    background: #4f84d1;
+    width: auto;
+    background: #C53633;
     position: absolute;
     left: 50%;
     top: -6px;
     transition: all 0.2s;
     pointer-events: none;
-}
-
-.button-effect:hover::after{
-    opacity: 1;
-}
+} */
 
 .sidebar{
     filter: blur(80%) brightness(10%);
@@ -406,4 +396,24 @@
 .menu-button{
     transform: rotate(0deg);
     transition: transform 500ms ease-in-out;
+}
+.slider-container{
+    position: absolute;
+    top: calc(100vh - 380px);
+}
+.slider{
+    position: relative;
+    white-space: nowrap;
+    display: flex;
+}
+.slider p{
+    margin: 0px;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 200px;
+    padding-right: 48px;
+    overflow: hidden;
+}
+.slider p:nth-of-type(2){
+    position: absolute;
+    left: 100%;
 }

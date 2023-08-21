@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from 'framer-motion';
 
-import { menu, folder, folderOpen } from '../assets';
+import { menu, logo } from '../assets';
 import { navLinks, features } from '../constants';
 import { navVariants, fadeIn, slideIn, staggerContainer } from '../motion';
 import "./gallery.css";
@@ -21,38 +21,27 @@ const Navbar = () => {
       variants = {navVariants}
       initial="hidden"
       whileInView="show"
-      className='w-full flex py-6 justify-between items-center navbar border-b-[1px] border-b-[#3f3r45]'>
-      <h1 className='JHK z-40'
-      onClick={() => reset()}>
+      className='w-full flex py-6 bg-none justify-between items-center navbar border-b-[1px] border-b-[#434A50]'>
         <Link 
-        to='/' 
-        className='font-opensans font-normal text-white xs:text-[18px] text-[17px] 
-        nav-link xs:leading-[10.8px] leading-[10.8px] w-[120px]'
+        to='/'
+        onClick={() => reset()}
         >
-          <ul className='names'>
-            <div className='names-all'>
-              <li><span>JOO HEE KIM</span></li>
-              <li><span className="font-grandiflora">김주희</span></li>
-            </div>
-          </ul>
+          <img src={logo} className="w-[35px] h-[35px] relative z-40" />
         </Link>
-      </h1>
-      
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         <div
         className={`${drop? "dropdown open" : "dropdown"} justify-start mr-10`}
         onClick={() => setDrop((prev) => !prev)}
         >
           <div
-          className={`flex flex-row button-effect`}>
-            <object type="image/svg+xml" data={`${drop? folderOpen : folder}`} className="w-[25px] h-[25px] invert-[100%] mr-1" />
-            <span className={`font-opensans font-normal cursor-pointer text-[16px] text-white`}>projects</span>
+          className={`flex flex-row`}>
+            <button className={`font-diphylleia  button-effect font-normal cursor-pointer text-[16px] text-[#434A50]`}>EXHIBITIONS</button>
           </div>
           <ul className={`${drop? "dropdown-menu open" : "dropdown-menu"} bg-black-gradient w-[150px]`}>
             {features.map((item, index) => (
               <li
               className={`font-opensans font-normal cursor-pointer text-[14px] pt-4 pb-3
-              text-white link`}
+              text-[#434A50] link`}
               onClick={() => setDrop((prev) => !prev)}
               >
                 <Link 
@@ -67,9 +56,9 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`button-effect font-opensans font-normal cursor-pointer text-
+            className={`button-effect font-diphylleia font-normal cursor-pointer text-
             [16px] ${index === navLinks.length - 1 ? 'mr-0': 'mr-10'} 
-            text-white`}
+            text-[#434A50]`}
             onClick={() => setDrop(false)}
           >
             <Link to={nav.link}>{nav.title}</Link>
@@ -102,9 +91,8 @@ const Navbar = () => {
             onClick={() => setDrop((prev) => !prev)}
             >
               <div className='flex flex-row pb-3 pl-8 pt-3 items-center'>
-                <object type="image/svg+xml" data={`${drop? folderOpen : folder}`} className="w-[25px] h-[25px] invert-[100%] mr-1" />
                 <span className={`font-opensans font-normal cursor-pointer text-[24px] text-white`}>
-                projects
+                EXHIBITIONS
                 </span>
               </div>
               <ul className={`${drop? "dropdown-menu-mobile open" : "dropdown-menu-mobile"} w-[100%] pl-[15vw]`}>
