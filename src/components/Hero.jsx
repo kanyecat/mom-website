@@ -12,6 +12,7 @@ const Hero = () => {
 
   const firstText = useRef(null);
   const secondText = useRef(null);
+  const slider = useRef(null);
   let xPercent = 0;
   let direction = -1;
 
@@ -35,16 +36,18 @@ const Hero = () => {
   return (
     <>
       <section id='home' className={`${styles.paddingY}`}>
-        <div className={`flex flex-row w-full justify-center `}>
+        <div className={`flex flex-row w-full justify-center`}>
           <div className={`flex ${styles.flexStart} flex-col ${styles.paddingX} md:pt-0 pt-4 z-10`}>
             <span className='font-diphylleia xs:text-[90px] text-[48px] xs:leading-[120.8px] leading-[60.8px] text-primary'>SAEGIL</span>
           </div>
         </div>
-        <div className='slider-container'>
-              <div className='slider'>
+        <div className='slider-box'>
+          <div className='slider-container'>
+              <div ref={slider} className='slider'>
                 <p ref={firstText} className='font-opensans font-normal'>- Calligraphy - Oriental Painting</p>
                 <p ref={secondText} className='font-opensans font-normal'>- Calligraphy - Oriental Painting</p>
               </div>
+          </div>
         </div>
       </section>
 

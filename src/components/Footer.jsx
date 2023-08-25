@@ -21,9 +21,9 @@ const Footer = () => {
           © Saegil
           </p>
         </div>
-        <p className="font-opensans font-thin text-center md:text-[16px] text-[14px] leading-[27px] text-white">
+        {/* <p className="font-opensans font-thin text-center md:text-[16px] text-[14px] leading-[27px] text-white">
           jooheeki@andrew.cmu.edu
-        </p>
+        </p> */}
         
         
         <div className="flex flex-row md:mt-0 mt-6">
