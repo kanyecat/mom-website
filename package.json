@@ -1,5 +1,6 @@
 {
   "name": "mom-website",
+  "homepage": "https://saegil.art",
   "private": true,
   "version": "0.0.0",
   "type": "module",

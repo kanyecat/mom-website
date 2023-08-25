@@ -1,10 +1,8 @@
 import styles from '../style';
-
 import { transition } from "../hoc";
 import { Link } from "react-router-dom";
 import "./gallery.css";
 import '../index.css';
-import postcardInfo from "../assets";
 
 const About = () => {
   return (
@@ -12,7 +10,6 @@ const About = () => {
     <div id='about' className="w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.paddingY} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <img src={postcardInfo} className='w-full'/>
           <div className='bg-cover fixed top-0 right-0 bg-hanji-letter w-full h-[100vh] z-0'/>
         </div>
       </div>
@@ -21,4 +18,4 @@ const About = () => {
   )
 }
 
-export default transition(About);
+export default transition(About, "");

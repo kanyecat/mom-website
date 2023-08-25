@@ -20,7 +20,7 @@ export const features = [
     id: "feature-1",
     image: long_calli_postcard,
     hash: "LQL;jN-p~pay_2IUIUofxut6WBRk",
-    title: "Marble Paint",
+    title: "Exhibitions",
     content:
       (
       "MACHINE"
@@ -28,44 +28,44 @@ export const features = [
     style: "sm:mr-80 pr-10",
     position: "pt-5 pb-3",
     size: "w-[280px] h-[220px] sm:w-[320px] sm:h-[250px]",
-    link: "/marble-paint",
+    link: "/exhibitions",
   },
   {
     id: "feature-2",
     image: long_calli_postcard,
     hash: "LVJRKx9F_Ns+%gRkt7t7%NV@M{bJ",
-    title: "Defense Mechanism",
+    title: "Performances",
     content:
       "KINETIC SCULPTURE",
     style: "pr-15",
     position: "pt-3 pb-3",
     size: "w-[150px] h-[150px] sm:w-[200px] sm:h-[200px]",
-    link: "/defense-mechanism",
+    link: "/performances",
   },
   {
     id: "feature-3",
     image: long_calli_postcard,
     hash: "LFN^bxRiM|V@?Gt6~qRkWFM|9EWB",
-    title: "Silent Killers",
+    title: "Lectures",
     content:
       "SCULPTURE",
     style: "sm:ml-80 sm:pl-[20vw] ml-20 pl-10",
     position: "pt-3 pb-3",
     size: "w-[200px] h-[300px] sm:h-[300px]",
-    link: "/silent-killers",
+    link: "/lectures",
   },
-  {
-    id: "feature-4",
-    image: long_calli_postcard,
-    hash: "LVJRKx9F_Ns+%gRkt7t7%NV@M{bJ",
-    title: "Frankenstein",
-    content:
-      "KINETIC SCULPTURE",
-    style: "pr-40 sm:pr-10",
-    position: "pt-3 pb-5",
-    size: "w-[150px] h-[150px] sm:w-[250px] sm:h-[250px]",
-    link: "/frankenstein",
-  },
+  // {
+  //   id: "feature-4",
+  //   image: long_calli_postcard,
+  //   hash: "LVJRKx9F_Ns+%gRkt7t7%NV@M{bJ",
+  //   title: "Frankenstein",
+  //   content:
+  //     "KINETIC SCULPTURE",
+  //   style: "pr-40 sm:pr-10",
+  //   position: "pt-3 pb-5",
+  //   size: "w-[150px] h-[150px] sm:w-[250px] sm:h-[250px]",
+  //   link: "/frankenstein",
+  // },
 ];
 
 export const pictures = [

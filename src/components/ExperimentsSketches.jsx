@@ -30,6 +30,7 @@ const ExperimentsSketches = () => {
                     className='pic'
                     src={item.image} 
                     onClick={() => getImage(item.image)}
+                    placeholder='blur'
                   />
                 {/* </div> */}
               </div>

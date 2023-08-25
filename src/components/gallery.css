@@ -318,19 +318,6 @@
     position: absolute;
     left: 0;
     top: calc(100% + 0.9rem);
-    border-left: 2px solid;
-    border-right: 2px solid;
-    border-bottom: 0;
-    border-top: 0;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-        180deg,
-        #4f84d1 -278.56%,
-        #4f84d1 -18.56%,
-        #4f84d1 40.56%,
-        rgba(79,132,209, 0.8) 60%,
-        rgba(0,0,0,0) 100%
-      );
     height: auto;
     width: auto;
     opacity: 0;
@@ -342,7 +329,7 @@
     padding-left: 15px;
 }
 .dropdown-menu .link:hover{
-    background-color: rgba(79,132,209, 0.4);
+    letter-spacing: 0.025em;
     transition: all 0.2s;
 }
 .dropdown-menu.open{

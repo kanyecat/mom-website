@@ -35,9 +35,9 @@ const Navbar = () => {
         >
           <div
           className={`flex flex-row`}>
-            <button className={`font-diphylleia  button-effect font-normal cursor-pointer text-[16px] text-[#434A50]`}>EXHIBITIONS</button>
+            <button className={`font-diphylleia  button-effect font-normal cursor-pointer text-[16px] text-[#434A50]`}>EXPERIENCE</button>
           </div>
-          <ul className={`${drop? "dropdown-menu open" : "dropdown-menu"} bg-black-gradient w-[150px]`}>
+          <ul className={`${drop? "dropdown-menu open" : "dropdown-menu"} w-[150px]`}>
             {features.map((item, index) => (
               <li
               className={`font-opensans font-normal cursor-pointer text-[14px] pt-4 pb-3
@@ -47,7 +47,7 @@ const Navbar = () => {
                 <Link 
                 to={item.link}
                 onClick={() => setDrop(false)}
-                >{item.link}
+                >{item.title}
                 </Link>
               </li>
             ))}
@@ -105,7 +105,7 @@ const Navbar = () => {
                   <Link 
                   to={item.link}
                   onClick={() => reset()}
-                  >{item.link}
+                  >{item.title}
                   </Link>
                 </li>
               ))}

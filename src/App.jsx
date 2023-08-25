@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
 
 import { Navbar, Home, ExperimentsSketches, About, Footer, NotFound, 
-  MarblePaint, SilentKillers, Frankenstein, DefenseMechanism } from './components';
+  Exhibitions, Performances, Lectures, DefenseMechanism } from './components';
 import { BrowserRouter,
   createBrowserRouter,
   createRoutesFromElements,
@@ -22,10 +22,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/gallery" element={<ExperimentsSketches />} />
         <Route path="/about" element={<About />} />
-        <Route path="/marble-paint" element={<MarblePaint />} />
-        <Route path="/silent-killers" element={<SilentKillers />} />
-        <Route path="/defense-mechanism" element={<DefenseMechanism />} />
-        <Route path="/frankenstein" element={<Frankenstein />} />
+        <Route path="/exhibitions" element={<Exhibitions />} />
+        <Route path="/performances" element={<Performances />} />
+        <Route path="/lectures" element={<Lectures />} />
+        {/* <Route path="/frankenstein" element={<Frankenstein />} /> */}
         <Route path="*" element={<NotFound />} />
       </Route>
     )
@@ -47,7 +47,8 @@ const Root = () => {
             <Navbar />
           </div>
         </div>
-        <div className='bg-primary w-full z-0'>
+        <div className='w-full z-0'>
+          <div className='bg-cover fixed top-0 right-0 bg-hanji-white w-full h-[100vh] z-0'/>
           <Outlet />
         </div>
 

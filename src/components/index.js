@@ -9,9 +9,9 @@ import ExperimentsSketches from './ExperimentsSketches';
 import Home from './Home';
 import Loader from "./Loader";
 import NotFound from './NotFound';
-import MarblePaint from "./MarblePaint";
-import SilentKillers from './SilentKillers';
-import Frankenstein from './Frankenstein';
+import Exhibitions from "./Exhibitions";
+import Performances from './Performances';
+import Lectures from './Lectures';
 import DefenseMechanism from './DefenseMechanism';
 
 export {
@@ -26,8 +26,8 @@ export {
     Home,
     Loader,
     NotFound,
-    MarblePaint,
-    SilentKillers,
-    Frankenstein,
+    Exhibitions,
+    Performances,
+    Lectures,
     DefenseMechanism,
 };
