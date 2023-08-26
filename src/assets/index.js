@@ -32,10 +32,16 @@ import postcard6 from "./postcard6.png";
 import postcard7 from "./postcard7.png";
 import postcardInfo from "./postcardInfo.png";
 import tomntoms1 from "./tomntoms1.png";
+import tomntoms2 from "./tomntoms2.png";
+import tomntoms3 from "./tomntoms3.png";
+import lady from "./lady.png";
 
 export {
   lotusSmall,
   tomntoms1,
+  tomntoms2,
+  tomntoms3,
+  lady,
   postcard1,
   postcard2,
   postcard3,

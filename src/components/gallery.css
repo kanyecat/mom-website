@@ -317,9 +317,10 @@
 .dropdown-menu{
     position: absolute;
     left: 0;
-    top: calc(100% + 0.9rem);
+    top: calc(100% + 1.3rem);
     height: auto;
     width: auto;
+    background: white;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;

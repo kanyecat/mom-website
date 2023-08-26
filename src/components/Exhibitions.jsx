@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style';
-import { tomntoms1 } from '../assets';
+import { tomntoms1, tomntoms2, tomntoms3 } from '../assets';
 import { transition } from "../hoc";
 import "./gallery.css"
 
@@ -31,8 +31,10 @@ const Exhibitions = () => {
             </div>
 
             <div className='flex flex-col md:flex-[3] scroll-box md:h-[700px]'>
-              <span className='md:text-start text-center w-full md:text-[60px] text-[35px] px-6 md:mb-4 mb-8'>TOM N TOMS</span>
+              <span className='md:text-start text-center w-full md:text-[60px] text-[35px] px-6 md:mb-4'>TOM N TOMS</span>
               <img src={tomntoms1} loading='lazy' className='w-auto h-[auto] object-cover md:mt-0 mt-6 mb-6'/>
+              <img src={tomntoms2} loading='lazy' className='w-auto h-[auto] object-cover md:mt-0 mt-6 mb-6'/>
+              <img src={tomntoms3} loading='lazy' className='w-auto h-[auto] object-cover md:mt-0 mt-6 mb-6'/>
             </div>
 
             <div className='hidden h-[0] md:h-[auto] md:visible md:flex md:flex-col md:flex-1 md:pl-4'>

@@ -1,4 +1,4 @@
-import { books, fan1, fan2, fan3, fan4, fan5, haedo1, haedo2, instagram, long_calli_postcard, 
+import { books, fan1, fan2, fan3, fan4, fan5, haedo1, haedo2, instagram, lady, long_calli_postcard, 
   lotus, lotusSmall, morando, 
   notebookcoverdesign, ohbongdo, postcard1, postcard2, postcard3, postcard4, postcard5, postcard6, postcard7, postcardInfo, rose } from "../assets";
 
@@ -72,113 +72,94 @@ export const pictures = [
   {
     id: "experiment-1",
     image: ohbongdo,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
   {
     id: "experiment-1",
     image: morando,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
   {
     id: "experiment-1",
     image: rose,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
   {
     id: "experiment-1",
     image: lotus,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
   {
     id: "experiment-1",
     image: lotusSmall,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
+  },
+  {
+    id: "experiment-1",
+    image: lady,
   },
   {
     id: "experiment-1",
     image: fan1,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
   {
     id: "experiment-1",
     image: fan2,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
   {
     id: "experiment-1",
     image: fan3,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
   {
     id: "experiment-1",
     image: fan4,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
   {
     id: "experiment-1",
     image: fan5,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
   {
     id: "experiment-1",
     image: books,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
   {
     id: "experiment-1",
     image: haedo1,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
   {
     id: "experiment-1",
     image: haedo2,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
   {
     id: "experiment-1",
     image: long_calli_postcard,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
   {
     id: "experiment-1",
     image: postcard1,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
   {
     id: "experiment-1",
     image: postcard2,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
   {
     id: "experiment-1",
     image: postcard3,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
   {
     id: "experiment-1",
     image: postcard4,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
   {
     id: "experiment-1",
     image: postcard5,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
-
   {
     id: "experiment-1",
     image: postcard6,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
   {
     id: "experiment-1",
     image: postcard7,
-    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
   {
     id: "experiment-2",
     image: notebookcoverdesign,
-    hash: "LEN09j^%pyENwHR.xuw[1TI@xCxZ",
   },
   // {
   //   id: "experiment-3",
