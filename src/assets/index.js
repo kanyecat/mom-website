@@ -34,10 +34,48 @@ import postcardInfo from "./postcardInfo.png";
 import tomntoms1 from "./tomntoms1.png";
 import tomntoms2 from "./tomntoms2.png";
 import tomntoms3 from "./tomntoms3.png";
+import bishop11 from "./bishop11.png";
+import bishop12 from "./bishop12.png";
+import bishop13 from "./bishop13.png";
+import bishop14 from "./bishop14.png";
+import bishop15 from "./bishop15.png";
+import bishop21 from "./bishop21.png";
+import bishop22 from "./bishop22.png";
+import bishop23 from "./bishop23.png";
+import bishop24 from "./bishop24.png";
+import bishop25 from "./bishop25.png";
+import bishop31 from "./bishop31.png";
+import bishop32 from "./bishop32.png";
+import bishop33 from "./bishop33.png";
+import bishop34 from "./bishop34.png";
+import bishop35 from "./bishop35.png";
+import bishop36 from "./bishop36.png";
+import bishop37 from "./bishop37.png";
+import bishop38 from "./bishop38.png";
+
+
 import lady from "./lady.png";
 
 export {
   lotusSmall,
+  bishop11,
+  bishop12,
+  bishop13,
+  bishop14,
+  bishop15,
+  bishop21,
+  bishop22,
+  bishop23,
+  bishop24,
+  bishop25,
+  bishop31,
+  bishop32,
+  bishop33,
+  bishop34,
+  bishop35,
+  bishop36,
+  bishop37,
+  bishop38,
   tomntoms1,
   tomntoms2,
   tomntoms3,
