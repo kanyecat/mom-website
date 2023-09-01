@@ -9,7 +9,6 @@ const Performances = () => {
     <div id='exhibitions' className={`${styles.paddingY} ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth} flex md:flex-nowrap flex-wrap justify-center z-10 text-primary font-diphylleia`}>
           <div className='flex md:flex-row flex-col'>
-            <div className='visible md:h-[0] h-[auto] md:hidden flex flex-col flex-1'>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px]'>YEAR</span>
                 <span className={`flex-[2.5] font-thin md:text-[16px] text-[16px]`}>2016</span>
@@ -59,7 +58,6 @@ const Performances = () => {
                 in succession.</span>
               </div> */}
             </div>
-          </div>
         </div>
       </div>
   )
