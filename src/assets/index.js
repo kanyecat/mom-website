@@ -52,12 +52,27 @@ import bishop35 from "./bishop35.png";
 import bishop36 from "./bishop36.png";
 import bishop37 from "./bishop37.png";
 import bishop38 from "./bishop38.png";
+import calli1 from "./calli1.png";
+import calli2 from "./calli2.png";
+import calli3 from "./calli3.png";
+import calli4 from "./calli4.png";
+import calli5 from "./calli5.png";
+import painting1 from "./painting1.png";
+import painting2 from "./painting2.png";
+
 
 
 import lady from "./lady.png";
 
 export {
   lotusSmall,
+  calli1,
+  calli2,
+  calli3,
+  calli4,
+  calli5,
+  painting1,
+  painting2,
   bishop11,
   bishop12,
   bishop13,
