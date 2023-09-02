@@ -57,8 +57,15 @@ import calli2 from "./calli2.png";
 import calli3 from "./calli3.png";
 import calli4 from "./calli4.png";
 import calli5 from "./calli5.png";
+import calli6 from "./calli6.png";
+import calli7 from "./calli7.png";
+import calli8 from "./calli8.png";
+import calli9 from "./calli9.png";
+import calli10 from "./calli10.png";
 import painting1 from "./painting1.png";
 import painting2 from "./painting2.png";
+import painting3 from "./painting3.png";
+import painting4 from "./painting4.png";
 
 
 
@@ -71,8 +78,15 @@ export {
   calli3,
   calli4,
   calli5,
+  calli6,
+  calli7,
+  calli8,
+  calli9,
+  calli10,
   painting1,
   painting2,
+  painting3,
+  painting4,
   bishop11,
   bishop12,
   bishop13,
