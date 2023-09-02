@@ -62,6 +62,7 @@ import calli7 from "./calli7.png";
 import calli8 from "./calli8.png";
 import calli9 from "./calli9.png";
 import calli10 from "./calli10.png";
+import calli11 from "./calli11.png";
 import painting1 from "./painting1.png";
 import painting2 from "./painting2.png";
 import painting3 from "./painting3.png";
@@ -83,6 +84,7 @@ export {
   calli8,
   calli9,
   calli10,
+  calli11,
   painting1,
   painting2,
   painting3,
