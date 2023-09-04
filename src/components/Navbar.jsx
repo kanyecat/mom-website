@@ -92,7 +92,7 @@ const Navbar = () => {
             >
               <div className='flex flex-row pb-3 pl-8 pt-3 items-center'>
                 <span className={`font-opensans font-normal cursor-pointer text-[24px] text-white`}>
-                EXHIBITIONS
+                EXPERIENCE
                 </span>
               </div>
               <ul className={`${drop? "dropdown-menu-mobile open" : "dropdown-menu-mobile"} w-[100%] pl-[15vw]`}>

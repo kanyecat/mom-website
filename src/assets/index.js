@@ -67,6 +67,10 @@ import painting1 from "./painting1.png";
 import painting2 from "./painting2.png";
 import painting3 from "./painting3.png";
 import painting4 from "./painting4.png";
+import sycamore1 from "./sycamore1.png";
+import sycamore2 from "./sycamore2.png";
+import sycamore3 from "./sycamore3.png";
+import sycamore4 from "./sycamore4.png";
 
 
 
@@ -89,6 +93,10 @@ export {
   painting2,
   painting3,
   painting4,
+  sycamore1,
+  sycamore2,
+  sycamore3,
+  sycamore4,
   bishop11,
   bishop12,
   bishop13,
