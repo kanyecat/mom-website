@@ -71,13 +71,24 @@ import sycamore1 from "./sycamore1.png";
 import sycamore2 from "./sycamore2.png";
 import sycamore3 from "./sycamore3.png";
 import sycamore4 from "./sycamore4.png";
-
-
-
+import obongdo from "./obongdo.png";
+import library1 from "./library1.png";
+import library2 from "./library2.png";
+import library3 from "./library3.png";
+import library4 from "./library4.png";
+import library5 from "./library5.png";
+import library6 from "./library6.png";
 import lady from "./lady.png";
 
 export {
   lotusSmall,
+  obongdo,
+  library1,
+  library2,
+  library3,
+  library4,
+  library5,
+  library6,
   calli1,
   calli2,
   calli3,
