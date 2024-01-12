@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { slideIn, staggerContainer, textVariant, fadeIn } from '../motion'
 import gsap from "gsap";
 import "./gallery.css";
+import suyang from "../assets/Suyang-Enlightenment.mp4";
 import { useEffect, useState, useRef } from 'react';
 // import { mask } from '../assets';
 
@@ -49,6 +50,9 @@ const Hero = () => {
               </div>
           </div>
         </div>
+          <video className="mt-6 mb-6" controls loop>
+            <source src={suyang} type='video/mp4'/>
+          </video>
       </section>
 
     </>

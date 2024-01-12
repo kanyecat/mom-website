@@ -79,8 +79,20 @@ import library4 from "./library4.png";
 import library5 from "./library5.png";
 import library6 from "./library6.png";
 import lady from "./lady.png";
+import dragonfly from "./dragonfly.png";
+import hwajodo1 from "./hwajodo1.png";
+import hwajodo2 from "./hwajodo2.png";
+import hwabyungdo1 from "./hwabyungdo1.png";
+import hwabyungdo2 from "./hwabyungdo2.png";
+import yeojeong from "./yeojeong.png";
 
 export {
+  yeojeong,
+  hwabyungdo1,
+  hwabyungdo2,
+  hwajodo1,
+  hwajodo2,
+  dragonfly,
   lotusSmall,
   obongdo,
   library1,
