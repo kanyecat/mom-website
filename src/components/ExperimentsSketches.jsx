@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from '../style';
 import { pictures } from '../constants';
 import { transition } from "../hoc";
+import suyang from "../assets/Suyang-Enlightenment.mp4";
 import "./gallery.css";
 
 const ExperimentsSketches = () => {
@@ -35,6 +36,9 @@ const ExperimentsSketches = () => {
                 {/* </div> */}
               </div>
             ))}
+            <video className="pic mt-6 mb-6" controls loop>
+              <source src={suyang} type='video/mp4'/>
+          </video>
           </div>
         </div>
       </div>
