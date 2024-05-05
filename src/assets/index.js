@@ -1,4 +1,4 @@
-import menu from "./menu.svg";
+import menu from "./menu3.svg";
 import close from "./close.svg";
 import instagram from "./instagram.svg";
 import calligraphy from "./calligraphy.png";
