@@ -1,6 +1,9 @@
 import { books, calli1, calli10, calli11, calli2, calli3, calli4, calli5, calli6, calli7, calli8, calli9, fan1, fan2, fan3, fan4, fan5, haedo1, haedo2, instagram, lady, long_calli_postcard, 
   lotus, lotusSmall, morando, 
-  notebookcoverdesign, ohbongdo, obongdo, painting1, painting2, painting3, painting4, postcard1, postcard2, postcard3, postcard4, postcard5, postcard6, postcard7, postcardInfo, rose, dragonfly, hwabyungdo1, hwabyungdo2, hwajodo1, hwajodo2, yeojeong } from "../assets";
+  notebookcoverdesign, ohbongdo, obongdo, painting1, painting2, painting3, painting4, postcard1, postcard2, postcard3, postcard4, postcard5, postcard6, postcard7, postcardInfo, rose, dragonfly, hwabyungdo1, hwabyungdo2, hwajodo1, hwajodo2, yeojeong, 
+  lovebird,
+  goldcalli1,
+  goldcalli2} from "../assets";
 
 export const navLinks = [
   {
@@ -69,6 +72,18 @@ export const features = [
 ];
 
 export const pictures = [
+  {
+    id: "experiment-1",
+    image: lovebird,
+  },
+  {
+    id: "experiment-1",
+    image: goldcalli1,
+  },
+  {
+    id: "experiment-1",
+    image: goldcalli2,
+  },
   {
     id: "experiment-1",
     image: yeojeong,

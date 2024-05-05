@@ -85,8 +85,14 @@ import hwajodo2 from "./hwajodo2.png";
 import hwabyungdo1 from "./hwabyungdo1.png";
 import hwabyungdo2 from "./hwabyungdo2.png";
 import yeojeong from "./yeojeong.png";
+import goldcalli1 from "./goldcalli1.png";
+import goldcalli2 from "./goldcalli2.png";
+import lovebird from "./lovebird.png";
 
 export {
+  lovebird,
+  goldcalli1,
+  goldcalli2,
   yeojeong,
   hwabyungdo1,
   hwabyungdo2,
