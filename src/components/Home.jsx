@@ -15,7 +15,7 @@ const Home = () => {
       </div>
       <div className={`${styles.paddingX} ${styles.paddingY} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth} z-10 flex justify-center items-center`}>
-          <video className='max-w-[800px]' autoplay="autoplay" loop muted>
+          <video className='suyang' autoplay="autoplay" loop muted>
               <source src={suyang} type='video/mp4'/>
           </video>
         </div>
