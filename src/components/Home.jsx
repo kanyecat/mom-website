@@ -1,6 +1,8 @@
 import styles from '../style';
 import { transition } from "../hoc";
 import { Hero, Work } from '../components';
+import suyang from "../assets/Suyang-Enlightenment.mp4";
+import "./gallery.css";
 
 const Home = () => {
   return (
@@ -12,8 +14,10 @@ const Home = () => {
         </div>
       </div>
       <div className={`${styles.paddingX} ${styles.paddingY} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth} z-10`}>
-          {/* <Work /> */}
+        <div className={`${styles.boxWidth} z-10 flex justify-center items-center`}>
+          <video className='max-w-[800px]' autoplay="autoplay" loop muted>
+              <source src={suyang} type='video/mp4'/>
+          </video>
         </div>
       </div>
     </div>

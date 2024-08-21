@@ -36,9 +36,6 @@ const ExperimentsSketches = () => {
                 {/* </div> */}
               </div>
             ))}
-            <video className="pic mt-6 mb-6" controls loop>
-              <source src={suyang} type='video/mp4'/>
-          </video>
           </div>
         </div>
       </div>
