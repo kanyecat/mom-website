@@ -26,7 +26,7 @@ const Hero = () => {
     }
     gsap.set(firstText.current, {xPercent: xPercent})
     gsap.set(secondText.current, {xPercent: xPercent})
-    xPercent += 0.1 * direction;
+    xPercent += 0.06 * direction;
     requestAnimationFrame(animation);
   }
 
