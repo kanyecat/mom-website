@@ -88,8 +88,10 @@ import yeojeong from "./yeojeong.png";
 import goldcalli1 from "./goldcalli1.png";
 import goldcalli2 from "./goldcalli2.png";
 import lovebird from "./lovebird.png";
+import psalms23 from "./psalms_23.png";
 
 export {
+  psalms23,
   lovebird,
   goldcalli1,
   goldcalli2,

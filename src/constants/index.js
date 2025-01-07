@@ -3,7 +3,8 @@ import { books, calli1, calli10, calli11, calli2, calli3, calli4, calli5, calli6
   notebookcoverdesign, ohbongdo, obongdo, painting1, painting2, painting3, painting4, postcard1, postcard2, postcard3, postcard4, postcard5, postcard6, postcard7, postcardInfo, rose, dragonfly, hwabyungdo1, hwabyungdo2, hwajodo1, hwajodo2, yeojeong, 
   lovebird,
   goldcalli1,
-  goldcalli2} from "../assets";
+  goldcalli2,
+  psalms23} from "../assets";
 
 export const navLinks = [
   {
@@ -72,6 +73,10 @@ export const features = [
 ];
 
 export const pictures = [
+  {
+    id: "experiment-1",
+    image: psalms23,
+  },
   {
     id: "experiment-1",
     image: lovebird,
