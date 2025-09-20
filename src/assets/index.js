@@ -89,8 +89,10 @@ import goldcalli1 from "./goldcalli1.png";
 import goldcalli2 from "./goldcalli2.png";
 import lovebird from "./lovebird.png";
 import psalms23 from "./psalms_23.png";
+import hojakdo from "./hojakdo.png";
 
 export {
+  hojakdo,
   psalms23,
   lovebird,
   goldcalli1,

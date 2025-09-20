@@ -4,6 +4,7 @@ import { books, calli1, calli10, calli11, calli2, calli3, calli4, calli5, calli6
   lovebird,
   goldcalli1,
   goldcalli2,
+  hojakdo,
   psalms23} from "../assets";
 
 export const navLinks = [
@@ -73,6 +74,10 @@ export const features = [
 ];
 
 export const pictures = [
+  {
+    id: "experiment-1",
+    image: hojakdo,
+  },
   {
     id: "experiment-1",
     image: psalms23,

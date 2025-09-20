@@ -407,7 +407,7 @@
 @media (max-width: 600px) {
     .model img{
         width: auto;
-        max-width: 88%;
+        max-width: 82%;
         height: auto;
         max-height: 88%;
         display: block;
