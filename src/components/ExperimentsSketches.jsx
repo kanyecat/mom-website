@@ -45,7 +45,6 @@ const ExperimentsSketches = () => {
                     placeholder='blur'
                   />
                   {/* <p>{index}</p> */}
-                {/* </div> */}
               </div>
             ))}
           </div>
